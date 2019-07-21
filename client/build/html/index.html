@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Note App</title>
+</head>
+
+<body style="background:#d8cece;">
+    <nav class="navbar navbar-default navbar-static-top" style="margin-bottom: 0px;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" style="font-weight: bold;">Note App</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="/"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li><a href="/register"><span class="glyphicon glyphicon-log-out"></span> Register</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid" style="
+    padding: 0;max-height: 500px;height: 500px;">
+        <div style='width: 100%;height: 100%;background-position: center;background-image: url("http://localhost/codeigniter/uploads/bg-post.jpg"'
+            );>
+            <br>
+            <div style="padding:100px;">
+                <img src="http://localhost/codeigniter/assets/images/2.png" class="img-circle img-responsive"
+                    style="margin:0 auto;" width="100" height="100" alt="" />
+                <h1 style="text-align:center;color:black;margin: 0;font-family: cursive;">Log In</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+        <div class="row">
+            <!--login form div starts -->
+            <div class="col-sm-6 col-sm-offset-3">
+                <div class="form-box">
+                    <div class="form-top">
+                        <br>
+
+                    </div>
+                    <div class="form-bottom">
+                        <form action="" method="post" accept-charset="utf-8" class="login-form">
+                            <div class="form-group">
+                                <input type="text" name="username" value="" class="form-control"
+                                    placeholder="Username..." />
+                            </div>
+                            <div class="form-group">
+                                <input type="password" name="password" value="" class="form-control"
+                                    placeholder="Password..." /> </div>
+
+                            <input type="submit" name="lsubmit" value="Login" class="btn btn-primary" /> &nbsp;
+                            <input type="reset" name="reset" value="Reset" class="btn btn-default" />
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div><!-- login ends here-->
+    </div>
+
+    </div>
+
+
+
+    <div class="container">
+        <a href="http://localhost/codeigniter/admin/store_article" class="btn btn-primary pull-right">Add Article</a>
+
+
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Sr.No.</th>
+                    <th>Title</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>ARTICLE ON GLOBAL WARMING</td>
+                    <td>
+                        <a href="http://localhost/codeigniter/admin/edit_article/3" class="btn btn-primary">Edit</a> <a
+                            href="http://localhost/codeigniter/admin/delete_article/3" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>ARTICLE ON WOMEN EMPOWERMENT</td>
+                    <td>
+                        <a href="http://localhost/codeigniter/admin/edit_article/4" class="btn btn-primary">Edit</a> <a
+                            href="http://localhost/codeigniter/admin/delete_article/4" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>ARTICLE ON POLLUTION</td>
+                    <td>
+                        <a href="http://localhost/codeigniter/admin/edit_article/5" class="btn btn-primary">Edit</a> <a
+                            href="http://localhost/codeigniter/admin/delete_article/5" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>ARTICLE ON SAVE WATER</td>
+                    <td>
+                        <a href="http://localhost/codeigniter/admin/edit_article/6" class="btn btn-primary">Edit</a> <a
+                            href="http://localhost/codeigniter/admin/delete_article/6" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>ARTICLE ON SWACHH BHARAT ABHIYAN</td>
+                    <td>
+                        <a href="http://localhost/codeigniter/admin/edit_article/7" class="btn btn-primary">Edit</a> <a
+                            href="http://localhost/codeigniter/admin/delete_article/7" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <ul class="pagination">
+            <li class="active"><a>1</a></li>
+            <li><a href="http://localhost/codeigniter/admin/dashboard/5">2</a></li>
+            <li><a href="http://localhost/codeigniter/admin/dashboard/5">&gt;</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <!--login form div starts -->
+            <div class="col-sm-6 col-sm-offset-3">
+                <div class="form-box">
+                    <div class="form-top">
+                        <div class="form-top-left">
+                            <img src="http://localhost/codeigniter/assets/images/2.png"
+                                class="img-circle img-responsive" style="margin:0 auto;" width="100" height="100"
+                                alt="" />
+                            <h4 style="margin:1px auto;text-align:center;color:black;">Add Your Article</h4>
+                        </div>
+
+                    </div>
+                    <div class="form-bottom">
+                        <form action="http://localhost/codeigniter/admin/store_article" method="post"
+                            accept-charset="utf-8" class="login-form" enctype="multipart/form-data">
+                            <input type="hidden" name="user_id" value="1" />
+
+                            <input type="hidden" name="created_at" value="2019-07-19 01:29:58" />
+                            <div class="form-group">
+                                <input type="text" name="title" value="" class="form-control"
+                                    placeholder="Article Title..." />
+                            </div>
+                            <div class="form-group">
+                                <textarea name="body" cols="40" rows="4" class="form-control"
+                                    placeholder="Article Body..."></textarea> </div>
+                            <div class="form-group">
+                                <input type="file" name="image" value="" class="form-control" /> </div>
+
+                            <input type="submit" name="lsubmit" value="Submit" class="btn btn-primary" /> &nbsp;
+                            <input type="reset" name="reset" value="Cancel" class="btn btn-default" />
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div><!-- login ends here-->
+    </div>
+
+    </div>
+
+    <div class="container">
+
+
+        <div class="container" style="width: 80%;">
+            <ul class="list-group">
+                <li class='list-group-item' style='border:0;padding: 3px 20px;'>
+                    <h2 style='border:0;font-family: cursive;font-weight: bold;'>ARTICLE ON WOMEN EMPOWERMENT</h2>
+                </li>
+                <li class='list-group-item' style='border:0;padding: 3px 20px;'><i>Posted on: 19 Mar 2019 09:09:18</i>
+                </li>
+                <li class='list-group-item' style='border:0;padding: 3px 20px;'>
+                    <p style="font-size: 25px;font-family: cursive;">Women empowerment implies the ability in women to
+                        take decisions with regard to their life and work and giving equal rights to them in all spheres
+                        like: personal, social, economic, political, legal an... <a
+                            href="http://localhost/codeigniter/users/article_find/4"><br><button
+                                class="btn btn-primary">READ MORE</button></a>
+                    </p>
+                </li>
+                <hr>
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="padding: 0;">
+        <div class="container" id='para1'>
+            <h3 class="" style="font-family: cursive;font-weight: bold;">ARTICLE ON WOMEN EMPOWERMENT</h3>
+            <p>
+                <i style="font-size:15px;">Posted on: 19 Mar 2019 09:09:18</i>
+                <br>
+                Women empowerment implies the ability in women to take decisions with regard to their life and work and
+                giving equal rights to them in all spheres like: personal, social, economic, political, legal and so on.
+                <p>
+                    Women empowerment is the much-talked about issue today. Women are increasingly getting empowered to
+                    decide the course of their life and professions and realize their fullest potential.</p>
+            </p>
+        </div>
+    </div>
+
+
+    <br>
+    <div class="text-center" style="background-color: #000;color: #fff;padding: 5px;">
+        <b>My Blog.Com </b><br>
+        &copy; 2019 | All Rights Reserved.
+    </div>
+
+
+</body>
+
+</html>
